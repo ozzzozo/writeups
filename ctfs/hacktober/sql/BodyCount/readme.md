@@ -17,7 +17,9 @@ lets first create a database to import that file into.
 
 #mysql -u root -p#
 #create database BodyCount;#
-
+```
+![alt text](https://raw.githubusercontent.com/ozzzozo/writeups/main/ctfs/hacktober/sql/BodyCount/0.png)
+```
 now we need to import the sql file.
 
 #mysql -u root -p BodyCount < shallowgraveu.sql#
@@ -27,13 +29,16 @@ after the sql file is imported we can start to view the tables.
 #mysql -u root -p BodyCount#
 
 to view all the tables we imported into the mysql database we can use #show tables;#
-
+```
+![alt text](https://raw.githubusercontent.com/ozzzozo/writeups/main/ctfs/hacktober/sql/BodyCount/1.png)
+```
 we can see that there is a `users` table.
 
 by counting how many users there is in that table we can answer the question.
 
 one way of doing that is by using #select * from users;#
-
-
+```
+![alt text](https://raw.githubusercontent.com/ozzzozo/writeups/main/ctfs/hacktober/sql/BodyCount/2.png)
+```
 flag{900}
 ```
