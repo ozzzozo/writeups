@@ -17,7 +17,9 @@ lets first create a database to import that file into.
 
 #mysql -u root -p#
 #create database NullAndVoid;#
-
+```
+![alt text](https://raw.githubusercontent.com/ozzzozo/writeups/main/ctfs/hacktober/sql/NullAndVoid/0.png)
+```
 now we need to import the sql file.
 
 #mysql -u root -p NullAndVoid < shallowgraveu.sql#
@@ -29,6 +31,8 @@ after the sql file is imported we can start to view the tables.
 now to check which field allows null value.
 
 we can do that by using #describe users;# to view the tables properties;
-
+```
+![alt text](https://raw.githubusercontent.com/ozzzozo/writeups/main/ctfs/hacktober/sql/NullAndVoid/1.png)
+```
 flag{middle, describe}
 ```
