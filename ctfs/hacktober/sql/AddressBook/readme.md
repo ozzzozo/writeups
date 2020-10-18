@@ -26,6 +26,8 @@ after the sql file is imported we can start to view the tables.
 
 #mysql -u root -p AddressBook#
 
+![alt text](https://raw.githubusercontent.com/ozzzozo/writeups/main/ctfs/hacktober/sql/AddressBook/0.png)
+
 we need to check the users table content.
 
 we know that lucifer is studies at Shallow Grave University so we can check for that domain in the emails.
@@ -33,6 +35,8 @@ we know that lucifer is studies at Shallow Grave University so we can check for 
 #select * from users where email LIKE '%@shallowgrave%';#
 
 which gives us only one row which is lucifer's row.
+
+![alt text](https://raw.githubusercontent.com/ozzzozo/writeups/main/ctfs/hacktober/sql/AddressBook/1.png)
 
 flag{luc1afer.h4vr0n@shallowgraveu.com}
 ```
