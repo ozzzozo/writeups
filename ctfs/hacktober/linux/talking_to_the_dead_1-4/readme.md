@@ -28,8 +28,8 @@ and we got the flags location!
 
 we can read the first 2 flags but the others give us permission denied.
 
-cat /home/luciafer/Documents/flag1.txt
-cat /home/luciafer/Documents/.flag2.txt
+#cat /home/luciafer/Documents/flag1.txt#
+#cat /home/luciafer/Documents/.flag2.txt#
 
 flag{cb07e9d6086d50ee11c0d968f1e5c4bf1c89418c} - flag 1
 flag{728ec98bfaa302b2dfc2f716d3de7869f3eadcbf} - flag 2
