@@ -25,21 +25,30 @@ now we need to import the sql file.
 after the sql file is imported we can start to view the tables.
 
 #mysql -u root -p FallClasses#
-
+```
+![alt text](https://raw.githubusercontent.com/ozzzozo/writeups/main/ctfs/hacktober/sql/FallClasses/0.png)
+```
 if we look inside table `terms` we can see the term_id of FALL2020 which will help us later filter out what we don't need.
 
 #select * from terms;#
-
+```
+![alt text](https://raw.githubusercontent.com/ozzzozo/writeups/main/ctfs/hacktober/sql/FallClasses/1.png)
+```
 to view all the courses offered we need to look into `term_courses`
 
 we can use #describe term_courses# to get more info about that table.
-
+```
+![alt text](https://raw.githubusercontent.com/ozzzozo/writeups/main/ctfs/hacktober/sql/FallClasses/4.png)
+```
 for this I wanted to write a simple script(for fun).
 
 lets first output all the term_courses into a file.
 
 #select * from term_courses INTO OUTFILE '/var/lib/mysql-files/terms.txt';#
-
+```
+![alt text](https://raw.githubusercontent.com/ozzzozo/writeups/main/ctfs/hacktober/sql/FallClasses/2.png)
+![alt text](https://raw.githubusercontent.com/ozzzozo/writeups/main/ctfs/hacktober/sql/FallClasses/5.png)
+```
 flag{401}
 ```
 
