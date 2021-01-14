@@ -1,0 +1,10 @@
+<?php
+// Set up a variable 
+$password = "Encrypt me";
+
+// Encrypt the password using md5
+md5($password);
+
+// Echo the encrypted password
+echo "$password";
+?>
