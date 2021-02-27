@@ -22,7 +22,7 @@ once you upload the perl reverse shell you will get a shell as alex.
 for some reason in the source code it executes the script uploaded with perl.
 ```
 
-![alt text](https://raw.githubusercontent.com/ozzzozo/writeups/main/thm/koth/img.png)
+![alt text](https://raw.githubusercontent.com/ozzzozo/writeups/main/thm/koth/Lion/img.png)
 
 ## LFI(Local File Inclusion) as gloria
 ```
