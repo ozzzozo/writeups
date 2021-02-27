@@ -22,7 +22,7 @@
 	for some reason in the source code it executes the script uploaded with perl.
 ```
 
-![alt text](image-url)
+![alt text](https://raw.githubusercontent.com/ozzzozo/writeups/main/thm/koth/img.png)
 
 ## LFI(Local File Inclusion) as gloria
 ```
